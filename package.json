@@ -1,0 +1,19 @@
+{
+  "name": "eclipsefdn-hugo-openmobility",
+  "description": "Source code for openmobility.eclipse.org",
+  "main": "webpack.min.js",
+  "author": "Christopher Guindon",
+  "license": "EPL-2.0",
+  "version": "0.0.1",
+  "bugs": {
+    "url": "https://github.com/EclipseFdn/openmobility.eclipse.org/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/EclipseFdn/openmobility.eclipse.org.git"
+  },
+  "readmeFilename": "README.md",
+  "dependencies": {
+    "eclipsefdn-hugo-solstice-theme": "0.0.16"
+  }
+}

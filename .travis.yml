@@ -1,0 +1,25 @@
+sudo: true
+dist: trusty
+install:
+- sudo apt-get --yes install autoconf libtool nasm
+- npm install
+- wget https://github.com/gohugoio/hugo/releases/download/v0.54.0/hugo_0.54.0_Linux-64bit.deb
+- sudo dpkg -i hugo*.deb
+script:
+- hugo
+deploy:
+  local-dir: public
+  repo: EclipseFdn/openmobility.eclipse.org
+  target-branch: gh-pages
+  provider: pages
+  keep-history: true
+  skip-cleanup: true
+  github_token: "$GITHUB_TOKEN"
+  email: chris.guindon@eclipse-foundation.org
+  name: Christopher Guindon
+  fqdn: openmobility.eclipse.org
+  on:
+    branch: master
+env:
+  global:
+    secure: zEdi94++jH1iB50x05etr5khwghbcXES47PGGy0bJw3DYSYd7kXY0wlwEdRBGI4W6r+mfjjDlY+LJ6WcV2c/lXfhPFt2rF0pcVkvII/v2+K1El5LJAOCPjRh7pQ9pWz99seO6CPSYE7yUGP1yqAp8PmKLvRNPiAB5Y3qBMb5bc7btSkJJln5EWAWptDS6J6k6Cb60Sa/mCv7Oc0bCCbnfgZc3UWwEiOHIBsNzVrapve60wjUgSE155algQr0aP8KRLDZJ6RI898QrpcvWgViwerD+Bilbc8x2wgpg9hSTs8pi2gDOpk3do4k/IKn0Pt4tuOg4okeznYIGIGbKcgVrNahea9QaNXnkqI/FLTegO+MWfjmkslpSgPby5oGy8bMq33wdmPz2J3LHU3zR7dkjzgkjUqsFPy0q4ff0gG0KZRd+NZWvycgATa6acxvIufLGDSEWCNOJu6K/iatwft/haMvN3R2GiSQx7c1qOvMlSJF3W794B0FgM+tzfRRd8rAu+4CXx0uEJR5uPoR9UCodZP0FqFqlXWkhQdqieBpNVpV4E/5teyVcVKtx6x24j8wDEGCXfk0SdC4NNWLVicbN8kY8QQ0chpm1MYzyEIKE4+JVTdzgQSlx92xJE1zWnyodZpQLoZGT8YdAaTmOavuAomGjsls7VcIWvk8b60SrWY=
