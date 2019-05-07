@@ -1,4 +1,4 @@
-baseurl = "https://eclipsefdn.github.io/openmobility.eclipse.org/"
+baseurl = "https://openmobility.eclipse.org/"
 DefaultContentLanguage = "en"
 title = "The openMobility working group will drive the evolution and broad adoption of mobility modelling and simulation technologies." 
 theme = "eclipsefdn-hugo-solstice-theme"
