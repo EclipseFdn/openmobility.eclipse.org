@@ -7,7 +7,7 @@ metaDataFormat = "yaml"
 disableKinds = ["taxonomyTerm"]
 themesDir = "node_modules/"
 buildFuture = true #allows to publish posts with future dates
-canonifyURLs = false
+canonifyURLs = false #keep false
 
 [Params]
   google_tag_manager = "GTM-5WLCZXC"
