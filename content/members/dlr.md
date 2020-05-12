@@ -5,7 +5,7 @@ description: ""
 layout: "single"
 ---
 
-<img src="http://openmobility.eclipse.org/images/members/dlr-logo.svg" width="200px" alt="DLR logo" style="pointer-events:none;">
+{{< figure src="http://openmobility.eclipse.org/images/members/dlr-logo.svg" width="200px" alt="DLR logo" >}}
 
 <!--more-->
 
@@ -19,4 +19,4 @@ DLRs mission comprises the exploration of Earth and the Solar System and researc
 
 ### Links:
 
-<a href="https://www.dlr.de/en">Visit website</a>
+[Visit website](https://www.dlr.de/en)

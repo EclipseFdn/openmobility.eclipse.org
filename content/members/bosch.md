@@ -5,11 +5,10 @@ description: ""
 layout: "single"
 ---
 
-<img src="http://openmobility.eclipse.org/images/members/bosch-logo.svg" width="200px" alt="BOSCH logo" style="pointer-events:none">
+{{< figure src="http://openmobility.eclipse.org/images/members/bosch-logo.svg" width="200px" alt="BOSCH logo" >}}
 <!--more-->
 
 The Bosch Group is a leading global supplier of technology and services. It employs roughly 402,000 associates worldwide (as of December 31, 2017). The company generated sales of 78.1 billion euros in 2017.
-
 
 Its operations are divided into four business sectors: Mobility Solutions, Industrial Technology, Consumer Goods, and Energy and Building Technology.
 
@@ -21,4 +20,4 @@ The Bosch Group comprises Robert Bosch GmbH and its roughly 440 subsidiary and r
 
 ### Links:
 
-<a href="https://www.bosch.de/">Visit website</a>
+[Visit website](https://www.bosch.de/)

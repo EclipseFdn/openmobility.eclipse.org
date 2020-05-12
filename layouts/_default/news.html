@@ -1,48 +1,22 @@
 {{ define "main" }}
 <div class="row margin-bottom-50 margin-top-20">
   <div class="col-sm-12 news-list">
-    <div class="news-list-col margin-bottom-40">
-      <h2 class="heading-line text-center">
-        <span><a href="{{ "/news/announcements" | relURL }}">Announcements</a></span>
-      </h2>
-      {{ range first 5 (where (index .Site.Taxonomies.categories "announcements").Pages "Section" "news") }}
-      <ul class="news-list-media list-unstyled">
-        <li>
-          <a href="{{- with .Params.link | default .RelPermalink }} {{.}} {{- end }}" class="media media-link match-height-item" >
-            <p class="media-date">{{ .Date.Format "Monday, Jan 2, 2006" }}</p>
-            <h4 class="media-heading">{{ .Title }}</h4>
-            <p class="media-text">{{ .Summary }}</p>
-          </a>
-        </li>
-      </ul>
-      {{ end }}
-      <ul class="list-inline news-list-links">
-        <li class="news-list-links-view-all"><a href="{{ "/news/announcements" | relURL }}">View all</a></li>
-        <li class="news-list-links-rss"><a href="{{ "categories/announcements/index.xml" | relURL }}" title="Subscribe to our RSS-feed">Subscribe to our RSS-feed <i class="fa fa-rss"></i></a></li>
-      </ul>
+    <h2 class="header-underline margin-bottom-30">Announcements</h2>
+    <div id="news-list-container" class="news-list" data-news-type="announcements" data-news-count="5" data-publish-target="openmobility">
     </div>
+    <ul class="list-inline block-summary-more margin-bottom-40">
+      <li><a href="https://newsroom.eclipse.org/rss/news/openmobility/news.xml" title="Subscribe to our RSS-feed"><i class="fa fa-rss margin-right-5"></i></a> <a href="/news/announcements">View all</a></li>
+      <li class="news-list-links-view-all"><a href="https://newsroom.eclipse.org/node/add/news">Submit News</a></li>
+    </ul>
   </div>
   <div class="col-sm-12 news-list">
-    <div class="news-list-col margin-bottom-40">
-      <h2 class="heading-line text-center">
-        <span><a href="{{ "/news/community-news" | relURL }}">Community News</a></span>
-      </h2>
-      {{ range first 5 (where (index .Site.Taxonomies.categories "community-news").Pages "Section" "news") }}
-      <ul class="news-list-media list-unstyled">
-        <li>
-          <a href="{{- with .Params.link | default .RelPermalink }} {{.}} {{- end }}" class="media media-link match-height-item">
-            <p class="media-date">{{ .Date.Format "Monday, Jan 2, 2006" }}</p>
-            <h4 class="media-heading">{{ .Title }}</h4>
-            <p class="media-text">{{ .Summary }}</p>
-          </a>
-        </li>
-      </ul>
-      {{ end }}
-      <ul class="list-inline news-list-links">
-        <li class="news-list-links-view-all"><a href="{{ "/news/community-news" | relURL }}">View all</a></li>
-        <li class="news-list-links-rss"><a href="{{ "categories/community-news/index.xml" | relURL }}" title="Subscribe to our RSS-feed">Subscribe to our RSS-feed <i class="fa fa-rss"></i></a></li>
-      </ul>
+    <h2 class="header-underline margin-bottom-30">Community News</h2>
+    <div id="community-news-list-container" class="news-list" data-news-type="community_news" data-news-count="5" data-publish-target="openmobility">
     </div>
+    <ul class="list-inline block-summary-more margin-bottom-40">
+      <li><a href="https://newsroom.eclipse.org/rss/news/openmobility/news.xml" title="Subscribe to our RSS-feed"><i class="fa fa-rss margin-right-5"></i></a> <a href="/news/community-news">View all</a></li>
+      <li class="news-list-links-view-all"><a href="https://newsroom.eclipse.org/node/add/news">Submit News</a></li>
+    </ul>
   </div>
 </div>
 {{ end }}

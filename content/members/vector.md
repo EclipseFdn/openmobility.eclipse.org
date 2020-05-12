@@ -5,7 +5,7 @@ description: ""
 layout: "single"
 ---
 
-<img src="http://openmobility.eclipse.org/images/members/vector-logo.svg" width="200px" alt="VECTOR logo" style="pointer-events:none;">
+{{< figure src="http://openmobility.eclipse.org/images/members/vector-logo.svg" width="200px" alt="VECTOR logo" >}}
 <!--more-->
 
 Vector provides tools, software components and engineering services for the networking of electronic systems in the automobile and related industries.
@@ -14,4 +14,4 @@ The ECU development is supported with tools for the design, test, calibration an
 
 ### Links:
 
-<a href="https://www.vector.com/">Visit website</a>
+[Visit website](https://www.vector.com/)

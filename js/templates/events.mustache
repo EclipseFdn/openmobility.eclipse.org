@@ -1,0 +1,17 @@
+{{#events}}
+<ul class="news-list-media list-unstyled">
+  <li>
+    <a href="{{ infoLink }}" class="media media-link match-height-item">
+      <p class="media-date">{{ date }} - {{ end-date }}</p>
+      <h4 class="media-heading">{{ title }}</h4>
+      {{#address}}
+      <p class="media-text">{{ address.city }}, {{ address.country }}</p>
+      {{/address}}
+      {{^address}}
+      <p class="media-text">{{ locationName }}</p>
+      {{/address}}
+      <p class="media-text">{{ description }}</p>
+    </a>
+  </li>
+</ul>
+{{/events}}

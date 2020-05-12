@@ -1,25 +1,4 @@
 {{ define "main" }}
   {{ .Content }} 
-  {{ $paginator := .Paginate .Data.Pages }}
-  {{ if ne $paginator.NumberOfElements 0 }}
-    <div class="news-list">
-      <div class="news-list-col">
-        {{ range $paginator.Pages }}
-          <ul class="news-list-media list-unstyled">
-            <li>
-              <a href="{{- with .Params.link | default .RelPermalink }} {{.}} {{- end }}" class="media media-link">
-                <p><span class="label label-default">{{ .Params.label }}</span></p>
-                <p class="media-date">{{ .Params.event_date }}</p>
-                <p class="media-date">{{ .Date.Format "Monday, Jan 2, 2006"}}</p>
-                <h4 class="media-heading">{{ .Title }}</h4>
-                <p class="media-text">{{ .Params.location }}</p>
-                <p class="media-text">{{ .Summary }}</p>
-              </a>
-            </li>
-          </ul>
-        {{ end }}
-        {{ template "_internal/pagination.html" . }}
-      </div>
-    </div>
-  {{ end }}
+  <div id="news-list-container" class="news-list" data-pagination="true" data-news-type="{{ .Page.Params.type }}" data-news-count="10" data-publish-target="openmobility">
 {{ end }}
