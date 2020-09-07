@@ -3,6 +3,9 @@ kind: Deployment
 metadata:
   name: openmobility-staging.eclipse.org
   namespace: foundation-internal-webdev-apps
+  labels:
+    app: openmobility.eclipse.org
+    environment: production
 spec:
   selector:
     matchLabels:
