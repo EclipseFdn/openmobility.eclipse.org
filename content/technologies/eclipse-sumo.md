@@ -3,6 +3,8 @@ title: "Eclipse SUMO"
 date: 2019-04-16T16:09:21+02:00
 layout: "single"
 description: ""
+show_featured_story: false
+show_featured_footer: false
 ---
 <p><img src="../../images/screenshots/SUMO-GUI.jpg" alt="SUMO GUI screenshot" width=250px style="pointer-events:none;float:right;">Traffic simulations facilitate the evaluation of infrastructure changes as well as policy changes before implementing them in the real world. For example, the effectiveness of environmental zones in cities or the efficiency of traffic light control algorithms can be tested and optimized in a traffic simulation before being deployed in the real world.</p>
 <p>Eclipse Simulation of Urban Mobility (SUMO) is a free and open traffic simulation toolsuite. SUMO allows modelling and analyzing intermodal traffic systems, including road vehicles, public transport, cargo logistics and pedestrians. Included with SUMO is a wealth of supporting tools, which handle tasks like route finding, visualization, network import and emission calculation. SUMO can be enhanced with custom models and it provides various APIs to remotely control and influence the simulation.</p>

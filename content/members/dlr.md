@@ -3,6 +3,8 @@ title: "Deutsches Zentrum für Luft- und Raumfahrt e.V. (DLR)"
 date: 2019-04-21T16:09:45-04:00
 description: ""
 layout: "single"
+show_featured_story: false
+show_featured_footer: false
 ---
 
 {{< figure src="http://openmobility.eclipse.org/images/members/dlr-logo.svg" width="200px" alt="DLR logo" >}}
