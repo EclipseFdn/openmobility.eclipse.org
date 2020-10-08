@@ -3,7 +3,6 @@ title: "OpenMobility Working Group Charter"
 date: 2019-03-14T16:09:45-04:00
 description: ""
 layout: "single"
-show_featured_story: false
 ---
 
 COMMUNITY REVIEW DRAFT

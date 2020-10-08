@@ -3,7 +3,6 @@ title: "Vector Informatik GmbH"
 date: 2019-04-18T16:09:45-04:00
 description: ""
 layout: "single"
-show_featured_story: false
 ---
 
 {{< figure src="http://openmobility.eclipse.org/images/members/vector-logo.svg" width="200px" alt="VECTOR logo" >}}

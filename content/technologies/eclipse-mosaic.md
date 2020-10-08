@@ -3,7 +3,6 @@ title: "Eclipse MOSAIC"
 date: 2020-07-07T16:09:21+02:00
 layout: "single"
 description: ""
-show_featured_story: false
 ---
 Eclipse MOSAIC provides a multi-domain/multi-scale co-simulation environment for virtual testing of connected and automated driving and mobility solutions. The co-simulation environment consists of
 

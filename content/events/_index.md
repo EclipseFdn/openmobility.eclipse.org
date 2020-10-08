@@ -4,7 +4,6 @@ date: 2019-04-16T16:13:39+02:00
 description: ""
 redirect_url: "https://events.eclipse.org"
 hide_sidebar: true
-show_featured_story: false
 ---
 
 Redirecting to https://events.eclipse.org

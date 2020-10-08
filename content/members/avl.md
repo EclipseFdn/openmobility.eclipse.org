@@ -3,7 +3,6 @@ title: "AVL List GmbH"
 date: 2019-04-23T16:09:45-04:00
 description: ""
 layout: "single"
-show_featured_story: false
 ---
 
 {{< figure src="http://openmobility.eclipse.org/images/members/avl-logo.svg" width="200px" alt="AVL logo" >}}

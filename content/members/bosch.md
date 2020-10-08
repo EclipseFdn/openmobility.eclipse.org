@@ -3,7 +3,6 @@ title: "Robert Bosch GmbH"
 date: 2019-04-22T16:09:45-04:00
 description: ""
 layout: "single"
-show_featured_story: false
 ---
 
 {{< figure src="http://openmobility.eclipse.org/images/members/bosch-logo.svg" width="200px" alt="BOSCH logo" >}}
