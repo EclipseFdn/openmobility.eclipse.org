@@ -5,7 +5,6 @@ description: ""
 redirect_url: "https://events.eclipse.org"
 hide_sidebar: true
 show_featured_story: false
-show_featured_footer: false
 ---
 
 Redirecting to https://events.eclipse.org

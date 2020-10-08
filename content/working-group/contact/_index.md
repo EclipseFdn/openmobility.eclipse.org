@@ -10,7 +10,6 @@ aliases: []
 toc: false
 draft: false
 show_featured_story: false
-show_featured_footer: false
 #header_wrapper_class: ""
 #seo_title: ""
 #headline: ""

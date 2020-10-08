@@ -4,7 +4,6 @@ date: 2019-04-20T16:09:45-04:00
 description: ""
 layout: "single"
 show_featured_story: false
-show_featured_footer: false
 ---
 
 {{< figure src="http://openmobility.eclipse.org/images/members/fraunhofer-logo.png" width="200px" alt="FRAUNHOFER logo" >}}
