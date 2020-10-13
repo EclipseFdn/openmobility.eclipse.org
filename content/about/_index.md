@@ -139,3 +139,5 @@ The OpenMobility Working Group uses the normal infrastructure provided to Eclips
 ### Community Building
 
 The Eclipse Foundation will provide access to its network of developers to facilitate the community building and the dissemination of the OpenMobility innovations. The Eclipse Foundation will use its communication channels such as its Newsletter, Twitter, or LinkedIn channels to promote key OpenMobility events and encourage its members to join and participate in the OpenMobility working group.
+
+hello
