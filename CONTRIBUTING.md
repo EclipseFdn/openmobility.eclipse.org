@@ -19,7 +19,7 @@ The project maintains the following source code repositories
 Before your contribution can be accepted by the project team contributors must
 electronically sign the Eclipse Contributor Agreement (ECA).
 
-* https://www.eclipse.org/legal/ECA.php
+* http://www.eclipse.org/legal/ECA.php
 
 Commits that are provided by non-committers must have a Signed-off-by field in
 the footer indicating that the author is aware of the terms by which the

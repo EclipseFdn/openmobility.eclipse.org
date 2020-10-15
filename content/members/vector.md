@@ -5,7 +5,7 @@ description: ""
 layout: "single"
 ---
 
-{{< figure src="/images/members/vector-logo.svg" width="200px" alt="VECTOR logo" >}}
+{{< figure src="http://openmobility.eclipse.org/images/members/vector-logo.svg" width="200px" alt="VECTOR logo" >}}
 <!--more-->
 
 Vector provides tools, software components and engineering services for the networking of electronic systems in the automobile and related industries.
