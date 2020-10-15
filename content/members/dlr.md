@@ -5,7 +5,7 @@ description: ""
 layout: "single"
 ---
 
-{{< figure src="http://openmobility.eclipse.org/images/members/dlr-logo.svg" width="200px" alt="DLR logo" >}}
+{{< figure src="/images/members/dlr-logo.svg" width="200px" alt="DLR logo" >}}
 
 <!--more-->
 

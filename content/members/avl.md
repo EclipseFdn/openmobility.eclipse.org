@@ -5,7 +5,7 @@ description: ""
 layout: "single"
 ---
 
-{{< figure src="http://openmobility.eclipse.org/images/members/avl-logo.svg" width="200px" alt="AVL logo" >}}
+{{< figure src="/images/members/avl-logo.svg" width="200px" alt="AVL logo" >}}
 <!--more-->
 
 AVL is the world's largest independent company for the development, simulation and testing of powertrain systems (hybrid, combustion engine, transmission, electric drive, batteries, fuel cell and control technology) for passenger cars, commercial vehicles, construction, large engines and their integration into the vehicle. The company has decades of experience in the development and optimization of powertrain systems for all industries. 
