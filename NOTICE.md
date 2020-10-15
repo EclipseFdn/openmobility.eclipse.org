@@ -19,7 +19,7 @@ source code repository logs.
 
 This program and the accompanying materials are made available under the terms
 of the Eclipse Public License v. 2.0 which is available at
-http://www.eclipse.org/legal/epl-2.0.
+https://www.eclipse.org/legal/epl-2.0.
 
 SPDX-License-Identifier: EPL-2.0
 
@@ -50,14 +50,14 @@ The project maintains the following source code repositories:
 ### Font-Awesome (^4.7.0)
 
 * The Font Awesome font is licensed under the SIL OFL 1.1:
-** http://scripts.sil.org/OFL
+** https://scripts.sil.org/OFL
 * Font Awesome CSS, LESS, and Sass files are licensed under the MIT License:
 ** https://opensource.org/licenses/mit-license.html
 * The Font Awesome documentation is licensed under the CC BY 3.0 License:
 ** https://creativecommons.org/licenses/by/3.0/
 * Attribution is no longer required as of Font Awesome 3.0, but much appreciated:
-** `Font Awesome by Dave Gandy - http://fontawesome.io`
-* Full details: http://fontawesome.io/license/
+** `Font Awesome by Dave Gandy - https://fontawesome.com/?from=io`
+* Full details: https://fontawesome.com/license?from=io
 
 ### jQuery JavaScript Library (^1.9.2)
 

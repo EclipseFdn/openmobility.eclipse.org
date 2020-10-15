@@ -5,7 +5,7 @@ description: ""
 layout: "single"
 ---
 
-{{< figure src="http://openmobility.eclipse.org/images/members/bosch-logo.svg" width="200px" alt="BOSCH logo" >}}
+{{< figure src="/images/members/bosch-logo.svg" width="200px" alt="BOSCH logo" >}}
 <!--more-->
 
 The Bosch Group is a leading global supplier of technology and services. It employs roughly 402,000 associates worldwide (as of December 31, 2017). The company generated sales of 78.1 billion euros in 2017.
